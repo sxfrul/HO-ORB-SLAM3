@@ -1,3 +1,24 @@
+# Hardware Optimized ORB SLAM3 (HO-ORB-SLAM3)
+**Setup Environment:** Ubuntu 20.04 LTS Focal Fossa
+
+## Dependencies:
+- CMake 3.20 or higher
+- Vulkan 1.3
+- CUDA 11 (exact version used: _Cuda compilation tools,_ release 11.8, V11.8.89)
+- glslangValidator
+- and the dependencies needed to run normal ORB-SLAM3 (Pangolin, Eigen3, etc...)
+## Acknowledgment
+**Relevant Repositories:**
+- [compute-engine by sfru-rsl](https://github.com/sfu-rsl/compute-engine#building)
+- [ORB-SLAM3-detailed-comments by electech6](https://github.com/electech6/ORB_SLAM3_detailed_comments/tree/master/src)
+- [ORB-SLAM3 by UZSLAMLab](https://github.com/UZ-SLAMLab/ORB_SLAM3)
+
+**Relevant Paper:**
+- [Improving the Performance of Local Bundle Adjustment for Visual-Inertial SLAM with Efficient Use of GPU Resources](https://ieeexplore.ieee.org/document/10160499)
+- [ORB-SLAM3: An Accurate Open-Source Library for Visual, Visual-Inertial and Multi-Map SLAM](https://arxiv.org/abs/2007.11898)
+
+Below is the original README.md from ORB-SLAM3-detailed-comments
+
 # ORB-SLAM3 超详细注释
 
 ![DEMO](https://github.com/electech6/ORB_SLAM3_detailed_comments/blob/master/demo.gif)
