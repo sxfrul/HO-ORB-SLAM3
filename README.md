@@ -4,11 +4,14 @@
 ## Dependencies:
 - CMake 3.20 or higher (exact version used: cmake version 3.20.5)
 - Vulkan 1.3
+```
+# If sudo apt install vulkan-tools gives a version lower than 1.3, install it manually using LUNARG:
 
 wget -qO - https://packages.lunarg.com/lunarg-signing-key-pub.asc | sudo apt-key add -
 sudo wget -qO /etc/apt/sources.list.d/lunarg-vulkan-1.3.275-focal.list https://packages.lunarg.com/vulkan/1.3.275/lunarg-vulkan-1.3.275-focal.list
 sudo apt update
 sudo apt install vulkan-sdk
+```
 
 - CUDA 11 (exact version used: _Cuda compilation tools,_ release 11.8, V11.8.89)
 - glslangValidator
